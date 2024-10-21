@@ -140,3 +140,8 @@ fun Contenido(
         }
     }
 }
+
+@Composable
+fun ScreenInicio() {
+    Text("Bienvenido a la pantalla de inicio")
+}
