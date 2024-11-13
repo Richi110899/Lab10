@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.lab10.ui.theme.Lab10Theme
-import com.tecsup.lab10.view.SeriesApp
+import com.example.lab10.view.SeriesApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Lab10Theme {
-                SeriesApp() // Cambia esto para usar SeriesApp
+                SeriesApp()
             }
         }
     }
